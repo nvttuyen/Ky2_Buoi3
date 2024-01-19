@@ -1,0 +1,124 @@
+.Header{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(204, 204, 204);
+    gap: 2px;
+}
+
+.insideheader{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* padding: 0px 5px; */
+    background-color: white;
+    width: 20%;
+}
+
+.insideheader:hover {
+    background-color: gray;
+    color: white ;
+}
+.insideheader:hover i{
+    color: white;
+}
+
+.insideheader i{
+    padding-right: 3px;
+    color: rgb(212, 2, 2);
+}
+
+/* Banner */
+.banner{
+    display: flex;
+    margin: 10px auto ;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.bannerleft{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 70%;
+    height: 360px;
+}
+
+.bannerleft i{
+    position: absolute;
+   top: 43%;
+   transform: translateY(-50%);
+   width: 25px;
+   height: 25px;
+   background-color: rgb(173, 173, 173);
+   color: white;
+   border-radius: 50%;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+}
+
+.bannerright{
+    width: 30%;
+}
+
+
+.bannerright img{
+    height: 180px;
+    width: 400px;
+}
+
+/* Content */
+.content{
+    margin: auto;
+}
+
+.box{
+    display: flex;
+    margin: auto;
+    padding: 0 15px;
+    gap: 15px ;
+    background-color: rgb(199, 208, 236);
+}
+
+.insidebox{
+    background-color: white;
+    padding: 5px;
+    margin-top: 5px;
+    width: 20%;
+    font-size: 16px;
+}
+
+.insidebox .price{
+    font-weight: bold;
+    color: red;
+    height: 15px;
+}
+
+.insidebox .discount{
+    display: flex;
+    gap: 5px;
+    text-align: center;
+    align-items: center;
+    height: 30px;
+}
+
+.insidebox .discount .firstprice{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.insidebox .discount .percent{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(255, 14, 14);
+    border-radius: 20%;
+   padding: 2px;
+   font-size: 13px;
+}
+
+.insidebox a{
+    color: blue;
+    text-decoration: none;
+}
